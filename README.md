@@ -43,7 +43,19 @@ npm install
 npm start
 ```
 
-6. Acesse a aplicação através de seu navegador em `http://localhost:3000`.
+6. entre na pasta server
+
+```bash
+cd server
+``` 
+
+7. execute o arquivo server
+
+```bash
+node server.js
+``` 
+
+8. Acesse a aplicação através de seu navegador em `http://localhost:3000`.
 
 ## 📊 **Estrutura do Banco de Dados**
 
