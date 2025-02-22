@@ -20,7 +20,7 @@ A aplicação foi desenvolvida utilizando **Node.js**, **Express**, **MySQL** e 
 1. Clone o repositório:
 
 ```bash
-git clone [<URL do repositório>](https://github.com/BrunnoOliveira-dev/organizador_de_projetos.git)
+git clone https://github.com/BrunnoOliveira-dev/organizador_de_projetos.git
 ```
 
 2. Entre na pasta do projeto:
