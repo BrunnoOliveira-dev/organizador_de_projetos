@@ -26,7 +26,7 @@ git clone https://github.com/BrunnoOliveira-dev/organizador_de_projetos.git
 2. Entre na pasta do projeto:
 
 ```bash
-cd organizador-de-projetos
+cd organizador_de_projetos
 ```
 
 3. Instale as dependências:
@@ -37,25 +37,19 @@ npm install
 
 4. Configure seu banco de dados MySQL e as credenciais de acesso no arquivo `config/database.js`.
 
-5. Inicie o servidor:
-
-```bash
-npm start
-```
-
-6. entre na pasta server
+5. entre na pasta server
 
 ```bash
 cd server
 ``` 
 
-7. execute o arquivo server
+6. execute o arquivo server
 
 ```bash
 node server.js
 ``` 
 
-8. Acesse a aplicação através de seu navegador em `http://localhost:3000`.
+7. Acesse a aplicação através de seu navegador em `http://localhost:3000`.
 
 ## 📊 **Estrutura do Banco de Dados**
 
