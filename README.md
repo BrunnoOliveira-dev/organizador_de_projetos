@@ -126,10 +126,12 @@ O projeto é dividido nas seguintes pastas:
 
 ---
 
-## 🤝 **Contribuições**
+## Autoria
 
-Se você deseja contribuir com melhorias ou correções para este projeto, fique à vontade para abrir um **pull request**.
+Este projeto foi desenvolvido por Brunno Oliveira.  
+Você pode entrar em contato ou ver mais sobre o trabalho em:
 
----
+- [GitHub](https://github.com/BrunnoOliveira-dev)
 
-Esse é o README completo com todas as informações do seu projeto! Se precisar de mais alguma coisa, é só avisar. 🚀
+Se você tiver alguma sugestão, dúvida ou contribuição, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
