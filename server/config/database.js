@@ -1,7 +1,16 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize('organizador', 'root', '1234', {
-    host: 'localhost',
+// atualize os dados abaixo
+const nome_do_banco = 'organizador'
+const username = 'root'
+const password = ''
+const host = '' // padrão = localhost
+
+
+// vá para o passo 5 do README.md
+
+const sequelize = new Sequelize(nome_do_banco, username, password, {
+    host: host,
     dialect: 'mysql',
     logging: false,
 })
