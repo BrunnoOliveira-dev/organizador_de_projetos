@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Detalhes</title>
+    <link rel="stylesheet" href="../styles/paginaProjeto.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Card do Projeto -->
+        <div class="card-projeto">
+            <h2 id="tituloProjeto">Título do Projeto</h2>
+            <div class="projeto-detalhes">
+                <p><strong>Descrição:</strong> <span id="descricaoProjeto"></span></p>
+                <p><strong>Data do Projeto:</strong> <span id="dataProjeto"></span></p>
+                <p><strong>Modelo Conceitual:</strong> <a id="linkModeloConceitual" href="#" target="_blank">Ver Modelo</a></p>
+                <p><strong>Modelo Lógico:</strong> <a id="linkModeloLogico" href="#" target="_blank">Ver Modelo</a></p>
+                <p><strong>Link do Github:</strong> <a id="linkGithub" href="#" target="_blank">Ver Projeto no Github</a></p>
+                <button onclick="editar()">Editar</button>
+                <button onclick="deletar()" class="btn-deletar">Deletar</button>
+            </div>
+        </div>
+
+        <!-- Sessão de Comentários -->
+        <div class="comentarios">
+            <h3>Comentários</h3>
+            <ul id="comentariosLista">
+                <!-- Comentários serão carregados aqui -->
+            </ul>
+            <form id="formComentario">
+                <textarea id="novoComentario" placeholder="Adicione um comentário..." required></textarea>
+                <button type="submit">Adicionar Comentário</button>
+            </form>
+        </div>
+
+        <!-- Sessão de Tarefas -->
+        <div class="tarefas">
+            <h3>Tarefas</h3>
+            <ul id="tarefasLista">
+                <!-- Tarefas serão carregadas aqui -->
+            </ul>
+            <form id="formTarefa">
+                <input type="text" id="tituloTarefa" placeholder="Titudo da tarefa..." required>
+                <input type="text" id="descricaoTarefa" placeholder="Descrição da tarefa..." required>
+                <input type="text" id="statusTarefa" placeholder="status da tarefa (0=pedente, 1=iniciado, 2=concluido, -1=cancelado)" required>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </div>
+
+        <a href="/" class="btn-voltar">Voltar para a Página Inicial</a>
+    </div>
+
+    <script src="../js/paginaProjeto.js"></script>
+</body>
+</html>

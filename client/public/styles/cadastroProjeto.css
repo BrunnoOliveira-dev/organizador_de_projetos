@@ -1,0 +1,107 @@
+/* Fundo escuro e moderno */
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container com bordas arredondadas */
+.container {
+    background: #1e1e1e;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Título estilizado */
+h2 {
+    color: #03dac6;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo dos labels */
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+    color: #b3b3b3;
+}
+
+/* Input e Textarea com foco moderno */
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #2c2c2c;
+    color: #e0e0e0;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #03dac6;
+}
+
+/* Botão com efeito de hover */
+button[type="submit"] {
+    background: #03dac6;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+
+button[type="submit"] {
+    background: #03dac6;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+button.botao-voltar {
+    background: #ff4f4f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+
+button.botao-voltar:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}

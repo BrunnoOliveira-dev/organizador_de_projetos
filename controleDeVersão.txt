@@ -1,0 +1,2 @@
+v1:
+    na faze v1 ainda não teremos as funções de colaboradores, e categorias 

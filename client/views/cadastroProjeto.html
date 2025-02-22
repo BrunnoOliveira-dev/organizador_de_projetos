@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Projeto</title>
+    <link rel="stylesheet" href="../styles/cadastroProjeto.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro de Projeto</h2>
+        <form id="formCadastroProjeto">
+            <label for="tituloProjeto">Título do Projeto:</label>
+            <input type="text" id="tituloProjeto" name="tituloProjeto" required>
+
+            <label for="linkDoModeloConceitual">Link do Modelo Conceitual:</label>
+            <input type="url" id="linkDoModeloConceitual" name="linkDoModeloConceitual">
+
+            <label for="linkDoModeloLogico">Link do Modelo Lógico:</label>
+            <input type="url" id="linkDoModeloLogico" name="linkDoModeloLogico">
+
+            <label for="linkDoGithub">Link do Github:</label>
+            <input type="url" id="linkDoGithub" name="linkDoGithub">
+
+            <label for="descricaoDoProjeto">Descrição do Projeto:</label>
+            <textarea id="descricaoDoProjeto" name="descricaoDoProjeto" required></textarea>
+
+            <button type="submit">Cadastrar Projeto</button>
+            <button type="button" class="botao-voltar" onclick="irParaPaginaInicial()">Voltar</button>
+        </form>
+    </div>
+
+    <script>
+        function irParaPaginaInicial() {
+            window.location.href = "http://localhost:3000/";
+        }
+    </script>
+
+    <script src="../js/cadastroProjeto.js"></script>
+</body>
+</html>

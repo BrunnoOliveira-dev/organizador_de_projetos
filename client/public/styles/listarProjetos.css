@@ -1,0 +1,104 @@
+/* Fundo escuro e moderno */
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container com bordas arredondadas */
+.container {
+    background: #1e1e1e;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Título estilizado */
+h2 {
+    color: #03dac6;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Botão de Cadastro */
+.botao-cadastro {
+    background: #03dac6;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.botao-cadastro:hover {
+    background: #00bfa5;
+    transform: scale(1.05);
+}
+
+/* Estilo de cada cartão de projeto */
+.projeto-card {
+    background: #2c2c2c;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.projeto-card:hover {
+    transform: scale(1.02);
+}
+
+/* Links estilizados */
+.projeto-card a {
+    color: #03dac6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.projeto-card a:hover {
+    color: #00bfa5;
+}
+
+
+
+/* Título do Projeto */
+.projeto-titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Descrição */
+.projeto-descricao {
+    color: #b3b3b3;
+    margin: 10px 0;
+}
+
+/* Data do Projeto */
+.projeto-data {
+    color: #757575;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .projeto-card {
+        font-size: 0.9em;
+    }
+}

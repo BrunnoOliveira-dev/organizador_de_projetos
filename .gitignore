@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de build
+dist/
+build/
+
+# Ignore arquivos de configuração do IDE (exemplo com VS Code)
+.vscode/
+
+# Ignore arquivos temporários
+*.tmp
+
+server/executaveis
+
+server/serverExecutavel.js

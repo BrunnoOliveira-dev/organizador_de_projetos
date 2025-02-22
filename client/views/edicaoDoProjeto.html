@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Projeto</title>
+    <link rel="stylesheet" href="../styles/cadastroProjeto.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Editar Projeto</h2>
+        
+        <!-- Formulário para editar os dados do projeto -->
+        <form id="formEditarProjeto">
+            <label for="tituloProjeto">Título do Projeto</label>
+            <input type="text" id="tituloProjeto" name="tituloProjeto" required>
+
+            
+            <label for="modeloConceitual">Link do Modelo Conceitual</label>
+            <input type="url" id="modeloConceitual" name="modeloConceitual">
+
+            <label for="modeloLogico">Link do Modelo Lógico</label>
+            <input type="url" id="modeloLogico" name="modeloLogico">
+
+            <label for="linkGithub">Link do Github</label>
+            <input type="url" id="linkGithub" name="linkGithub">
+
+            <label for="descricaoProjeto">Descrição</label>
+            <textarea id="descricaoProjeto" name="descricaoProjeto" required></textarea>
+
+            <input type="text" style="display: none;" id="data">
+
+
+            <!-- Botão de Atualizar -->
+            <button type="submit">Atualizar Projeto</button>
+        </form>
+
+        <!-- Botão de Voltar -->
+        <button type="button" class="botao-voltar" onclick="irParaPaginaInicial()">Voltar</button>
+    </div>
+
+    <script>
+        function irParaPaginaInicial() {
+            window.location.href = "http://localhost:3000/";
+        }
+    </script>
+
+    <script src="../js/edicaoDoProjeto.js"></script>
+</body>
+</html>
