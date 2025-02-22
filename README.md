@@ -35,7 +35,7 @@ cd organizador_de_projetos
 npm install
 ```
 
-4. Configure seu banco de dados MySQL e as credenciais de acesso no arquivo `config/database.js`.
+4. Configure seu banco de dados MySQL e as credenciais de acesso no arquivo `server/config/database.js`.
 
 5. entre na pasta server
 
