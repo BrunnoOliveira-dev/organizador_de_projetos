@@ -7,7 +7,7 @@ A aplicação foi desenvolvida utilizando **Node.js**, **Express**, **MySQL** e 
 1. **Server (Back-end)**: Responsável pela lógica de negócios, incluindo rotas, controladores e models.
 2. **Client (Front-end)**: Responsável pela interface do usuário, incluindo as views HTML, arquivos JS e CSS.
 
-🧑‍💻 **Tecnologias Utilizadas**
+## 🧑‍💻 **Tecnologias Utilizadas**
 
 - **Node.js**
 - **Express** para gerenciar as rotas e controladores
@@ -15,7 +15,7 @@ A aplicação foi desenvolvida utilizando **Node.js**, **Express**, **MySQL** e 
 - **Sequelize** como ORM (Object-Relational Mapping) para facilitar a comunicação com o banco de dados
 - **HTML/CSS/JS** para o front-end
 
-🚀 **Como Rodar o Projeto**
+## 🚀 **Como Rodar o Projeto**
 
 1. Clone o repositório:
 
@@ -45,9 +45,9 @@ npm start
 
 6. Acesse a aplicação através de seu navegador em `http://localhost:3000`.
 
-📊 **Estrutura do Banco de Dados**
+## 📊 **Estrutura do Banco de Dados**
 
-📁 **Tabela: Projetos (`projetos`)**
+### 📁 **Tabela: Projetos (`projetos`)**
 | Campo                  | Tipo           | Permite Nulo | Descrição                            |
 |------------------------|----------------|--------------|--------------------------------------|
 | `idProjeto`            | INTEGER (PK)   | ❌           | ID único do projeto                 |
@@ -60,7 +60,7 @@ npm start
 
 ---
 
-📝 **Tabela: Comentários (`comentariosdoprojeto`)**
+### 📝 **Tabela: Comentários (`comentariosdoprojeto`)**
 | Campo            | Tipo         | Permite Nulo | Descrição                      |
 |------------------|--------------|--------------|----------------------------------|
 | `idComentario`   | INTEGER (PK) | ❌           | ID único do comentário          |
