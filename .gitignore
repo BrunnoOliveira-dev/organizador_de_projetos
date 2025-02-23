@@ -17,3 +17,5 @@ build/
 server/executaveis
 
 server/serverExecutavel.js
+
+server/config/database.js
