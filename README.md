@@ -35,7 +35,48 @@ cd organizador_de_projetos
 npm install
 ```
 
-4. Configure seu banco de dados MySQL e as credenciais de acesso no arquivo `server/config/database.js`.
+4. ⚙️ Configuração do Ambiente
+
+Este projeto utiliza variáveis de ambiente para configurar informações sensíveis e específicas do ambiente, como as credenciais do banco de dados.
+
+Arquivo .env.example
+
+Na pasta "server" do projeto, você encontrará um arquivo chamado .env.example. Este arquivo serve como um modelo para o arquivo de configuração de ambiente real (.env).
+
+Como configurar o ambiente local:
+
+Copie o .env.example: Duplique ou renomeie o arquivo .env.example para .env.
+
+
+```bash
+cp .env.example .env
+```
+ou
+
+```bash
+mv .env.example .env
+```
+
+Preencha o arquivo .env: Abra o arquivo .env e substitua os valores de exemplo pelas suas configurações reais, como as informações de conexão com o banco de dados MySQL.
+
+```bash
+DB_NAME=nome_do_banco
+DB_USER=seu_usuario
+DB_PASSWORD=sua_senha
+DB_HOST=localhost
+PORT=3000
+```
+
+Abaixo está a lista de variáveis de ambiente utilizadas no projeto e suas descrições:
+
+* DB_HOST: Host do servidor MySQL. (Tipo: String, padrão: localhost);
+* DB_USER: Nome de usuário para conexão com o MySQL. (Tipo: String);
+* DB_PASSWORD: Senha para o usuário do MySQL. (Tipo: String);
+* DB_NAME: Nome do banco de dados MySQL a ser utilizado. (Tipo: String);
+* PORT: Porta em que o servidor da aplicação será executado. (Tipo: Número, padrão: 3000);
+
+Certifique-se de preencher o arquivo .env com os valores corretos antes de executar o projeto localmente.
+
 
 5. entre na pasta server
 
