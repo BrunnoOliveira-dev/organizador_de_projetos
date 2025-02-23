@@ -1,10 +1,11 @@
+require('dotenv').config()
 const Sequelize = require('sequelize')
 
 // atualize os dados abaixo
-const nome_do_banco = ''
-const username = ''
-const password = ''
-const host = '' // padrão = localhost
+const nome_do_banco = process.env.NOME_DO_BANCO
+const username = process.env.USER_NAME
+const password = process.env.PASSWORD
+const host = process.env.HOST 
 
 
 // vá para o passo 5 do README.md
