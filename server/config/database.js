@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize')
 
 // atualize os dados abaixo
-const nome_do_banco = 'organizador'
-const username = 'root'
+const nome_do_banco = ''
+const username = ''
 const password = ''
 const host = '' // padrão = localhost
 
